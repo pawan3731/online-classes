@@ -7,18 +7,18 @@ function ChooseSection() {
     const chooseList = [
         {
             chooseIcon: <Image preview={false} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_shape_image_1.png'></Image>,
-            chooseTitle: 'First Growing Process',
-            chooseDes: 'Bring to the table win-win survival strategies to ensur.',
+            chooseTitle: 'Experienced Mentors',
+            chooseDes: 'Learn directly from professionals who have worked with top companies and bring industry insights.',
         },
         {
             chooseIcon: <Image preview={false} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_shape_image_2.png'></Image>,
-            chooseTitle: 'Dedicated Support 24/7',
-            chooseDes: 'Leverage agile frameworks to provide a robust.',
+            chooseTitle: 'Flexible Learning',
+            chooseDes: 'Access courses anytime, anywhere, and learn at your own pace with our online modules.',
         },
         {
             chooseIcon: <Image preview={false} src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_shape_image_3.png"></Image>,
-            chooseTitle: 'Clean Code Design',
-            chooseDes: 'Podcasting operational change management inside.',
+            chooseTitle: 'Career Support',
+            chooseDes: 'From building an impressive resume to landing your first job or freelance gig, we’re here to guide you every step of the way.',
         },
     ]
 
@@ -34,9 +34,9 @@ function ChooseSection() {
                     </Col>
                     <Col md={12}>
                         <div className='chooseContent'>
-                            <Title level={4} className='secondaryTitle blueColor'><span>Why Choose</span> Our Services!</Title>
-                            <Title level={1} className='primaryTitle blueColor'>Leading the best digital agency</Title>
-                            <Text>Bring to the table win-win survival strategies to ensure proactive domination At the end of the day.</Text>
+                            <Title level={4} className='secondaryTitle blueColor'><span>Why</span> Choose Us!</Title>
+                            <Title level={1} className='primaryTitle blueColor'>Best online Tech Agency</Title>
+                            <Text>Ready to start your journey in web design, development, or digital marketing? Join our community and gain the skills, confidence, and support you need to thrive in the digital world.</Text>
                             <div className='iconListWrap'>
                                 {chooseList.map((items, index) => {
                                     return (

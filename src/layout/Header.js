@@ -6,7 +6,7 @@ function Header() {
     const [scroll, setScroll] = useState(false);
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            setScroll(window.scrollY > 100);
+            setScroll(window.scrollY > 60);
         });
     }, []);
 
@@ -22,7 +22,7 @@ function Header() {
                 <div className="container">
                     <div className="nav_menu">
                         <div className="site_logo">
-                            <Link to="/"><span>Lo</span>go</Link>
+                            <Link to="/"><span>Online</span>Tech</Link>
                         </div>
                         <ul className={addClass ? 'show' : ''} onClick={toggleClass}>
                             <div className="mobileToggle">
@@ -37,7 +37,7 @@ function Header() {
                                 <NavLink to="/about">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/service">Services</NavLink>
+                                <NavLink to="/service">Courses</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/project">Projects</NavLink>
@@ -50,7 +50,7 @@ function Header() {
                             </li>
                         </ul>
                         <div className="callLink">
-                            <PhoneOutlined /> <span className="callNb"><span>Call any time</span> 123 456 7890 </span>
+                            <PhoneOutlined /> <span className="callNb"><span>Call any time</span> +91-9888223731 </span>
                         </div>
                         <div className="mobileToggle" onClick={toggleClass}>
                             <span></span>

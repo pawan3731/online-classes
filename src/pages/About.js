@@ -13,7 +13,6 @@ function About() {
             </div>
             <AboutSection />
             <ChooseSection/>
-            
         </div>
     )
 }

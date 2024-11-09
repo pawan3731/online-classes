@@ -178,8 +178,8 @@ span.ant-typography.textColor {
 }
 
 .callNb {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: 600;
   color: var(--whiteColor);
 }
 
@@ -346,6 +346,7 @@ span.ant-typography.textColor {
   flex-flow: wrap;
   column-gap: 20px;
   margin-top: 20px;
+  height: calc(100% - 20px);
 }
 
 .featuredIcon {

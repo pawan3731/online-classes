@@ -9,17 +9,17 @@ function ContactSection() {
         {
             contactIcon: <Image preview={false} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/04/phone-call-2.png'></Image>,
             contactTitle: 'Phone:',
-            contactDetails: '(+088)589-8745',
+            contactDetails: '+91-9888223731',
         },
         {
             contactIcon: <Image preview={false} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/04/email-1.png'></Image>,
             contactTitle: 'Email:',
-            contactDetails: 'support@rstheme.com',
+            contactDetails: 'omparkash55913@gmail.com',
         },
         {
             contactIcon: <Image preview={false} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/04/location-2.png'></Image>,
             contactTitle: 'Address:',
-            contactDetails: ' 2972 Westheimer Rd. Santa Ana',
+            contactDetails: 'Phase 3B2, Mohali',
         },
     ]
 

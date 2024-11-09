@@ -7,9 +7,9 @@ const { Title, Text } = Typography;
 function ServiceSection() {
 
     const serviceData = [
-        {
-            serviceIcon: <Image preview={false} src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_h_4_icon_1.png"></Image>,
-            serviceTitle: 'UI/UX Design',
+        {   
+            serviceIcon: <Image preview={false} src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_h_4_icon_4.png"></Image>,
+            serviceTitle: 'Frontend Development',
             serviceDes: 'Strategies to ensure proactive domination. At the end of the day going forward.',
         },
         {
@@ -18,18 +18,18 @@ function ServiceSection() {
             serviceDes: 'Strategies to ensure proactive domination. At the end of the day going forward.',
         },
         {
-            serviceIcon: <Image preview={false} src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_h_4_icon_4.png"></Image>,
-            serviceTitle: 'Frontend Development',
+            serviceIcon: <Image preview={false} src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_h_4_icon_1.png"></Image>,
+            serviceTitle: 'UI/UX Design',
             serviceDes: 'Strategies to ensure proactive domination. At the end of the day going forward.',
         },
         {
             serviceIcon: <Image preview={false} src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_h_4_icon_2.png"></Image>,
-            serviceTitle: 'SEO Optimization',
+            serviceTitle: 'Digital Marketing',
             serviceDes: 'Strategies to ensure proactive domination. At the end of the day going forward.',
         },
         {
             serviceIcon: <Image preview={false} src="https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service_h_4_icon_5.png"></Image>,
-            serviceTitle: 'Design & Concept',
+            serviceTitle: 'Interview Preparation',
             serviceDes: 'Strategies to ensure proactive domination. At the end of the day going forward.',
         },
         {
@@ -42,8 +42,8 @@ function ServiceSection() {
     return (
         <div className='greyBg sectionPadding serviceSection'>
             <div className="container">
-                <Title level={4} align="center" className='secondaryTitle blueColor'><span>Our</span> Services</Title>
-                <Title level={1} align="center" className='primaryTitle blueColor spaceBottom'>We care about your business</Title>
+                <Title level={4} align="center" className='secondaryTitle blueColor'><span>Our</span> Courses</Title>
+                <Title level={1} align="center" className='primaryTitle blueColor spaceBottom'>We care about your Future</Title>
                 <Row align="middle" gutter={[24, 24]}>
                     {serviceData.map((items, index) => {
                         return (

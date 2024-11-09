@@ -22,7 +22,7 @@ function TestimonialSection() {
         <div className='sectionPadding'>
             <div className='container'>
                 <Title level={4} align="center" className='secondaryTitle blueColor'><span>Test</span>imonial</Title>
-                <Title level={1} align="center" className='primaryTitle blueColor spaceBottom'>We care about your business</Title>
+                <Title level={1} align="center" className='primaryTitle blueColor spaceBottom'>Reveiw Our Online Student</Title>
                 <Carousel autoplay className='testimonialSlider'>
                     {clientMsg.map((items, index) => {
                         return (
