@@ -62,10 +62,10 @@ function FooterSection() {
                             <Title className='secondaryTitle' level={4}><span>Online</span>Tech</Title>
                             <Text>Proactively envisioned multimedia based expertise and cross-media growth strategies seamlessly.</Text>
                             <div className='socialIcon'>
-                                <Link to={{ pathname: "https://www.linkedin.com/in/om-parkash-ab5b01142" }}>
+                                <Link>
                                     <svg enable-background="new 0 0 56.693 56.693" height="20px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="20px" ><path d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z" fill='#fff' /></svg>
                                 </Link>
-                                <Link>
+                                <Link Link target="_blank" to="https://github.com/pawan3731">
                                     <svg enable-background="new 0 0 32 32" height="16px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="16px"><rect fill="#fff" height="23" width="7" y="9" /><path d="M24.003,9C20,9,18.89,10.312,18,12V9h-7v23h7V19c0-2,0-4,3.5-4s3.5,2,3.5,4v13h7V19C32,13,31,9,24.003,9z" fill="#fff" /><circle cx="3.5" cy="3.5" fill="#fff" r="3.5" /></svg>
                                 </Link>
                                 <Link>
